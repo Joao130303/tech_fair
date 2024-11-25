@@ -1,4 +1,5 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +10,16 @@
             background-color: #0d1117;
             color: #c9d1d9;
         }
+
         .navbar {
             background-color: #161b22;
         }
+
         .card {
             background-color: #21262d;
             color: #c9d1d9;
         }
+
         footer {
             background-color: #161b22;
             color: #8b949e;
@@ -23,11 +27,13 @@
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">FeiraTech</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,44 +57,47 @@
             </div>
         </div>
     </nav>
-<div class="container my-5 text-center col-md-6">
-    <h1>Inscrição</h1>
-    <form id="form-inscricao">
-        <div class="mb-3">
-            <label for="nome" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="nome" required>
-        </div>
-        <div class="mb-3">
-            <label for="sobrenome" class="form-label">Sobrenome</label>
-            <input type="text" class="form-control" id="sobrenome" required>
-        </div>
-        <div class="mb-3">
-            <label for="cpf" class="form-label">CPF</label>
-            <input type="text" class="form-control" id="cpf" maxlength="11" required>
-        </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" required>
-        </div>
-        <div class="mb-3">
-            <label for="data" class="form-label">Data de Participação</label>
-            <select class="form-select" id="data" required>
-                <option value="">Selecione uma data</option>
-                <option value="2025-01-24">24 de Janeiro de 2025 - R$90,00</option>
-                <option value="2025-01-25">25 de Janeiro de 2025 - R$120,00</option>
-                <option value="2025-01-26">26 de Janeiro de 2025 - R$100,00</option>
-                <option value="2025-01-26">Todos os dias - R$250,00</option>
-            </select>
-        </div>
-        <div class="mb-3">
-            <label for="pagamento" class="form-label">Método de Pagamento</label>
-            <select class="form-select" id="pagamento" required>
-                <option value="">Selecione o método</option>
-                <option value="boleto">Boleto</option>
-            </select>
-        </div>
-        <button type="submit" class="btn btn-primary"><a class="nav-link" href="pedido_finalizado.html">Finalizar Compra</a></button>
+    <div class="container my-5 text-center col-md-6">
+        <h1>Inscrição</h1>
+        <form id="form-inscricao">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="sobrenome" class="form-label">Sobrenome</label>
+                <input type="text" class="form-control" id="sobrenome" required>
+            </div>
+            <div class="mb-3">
+                <label for="cpf" class="form-label">CPF</label>
+                <input type="text" class="form-control" id="cpf" maxlength="11" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="data" class="form-label">Data de Participação</label>
+                <select class="form-select" id="data" required>
+                    <option value="">Selecione uma data</option>
+                    <option value="2025-01-24">24 de Janeiro de 2025 - R$90,00</option>
+                    <option value="2025-01-25">25 de Janeiro de 2025 - R$120,00</option>
+                    <option value="2025-01-26">26 de Janeiro de 2025 - R$100,00</option>
+                    <option value="2025-01-26">Todos os dias - R$250,00</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="pagamento" class="form-label">Método de Pagamento</label>
+                <select class="form-select" id="pagamento" required>
+                    <option value="">Selecione o método</option>
+                    <option value="boleto">Boleto</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary"><a class="nav-link" href="pedido_finalizado.html">Finalizar
+                    Compra</a></button>
         </form>
-</div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
