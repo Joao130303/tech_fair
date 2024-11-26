@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inscrição - Feira de Tecnologia</title>
+    <title>Traga sua Empresa - Feira de Tecnologia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -31,7 +31,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">FeiraTech</a>
+            <a class="navbar-brand" href="/Tech_Fair/index.html">FeiraTech</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -39,19 +39,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="sobre.html">Sobre</a>
+                        <a class="nav-link" href="/Tech_Fair/sobre.html">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="palestrantes.html">Equipe de Palestrantes</a>
+                        <a class="nav-link" href="/Tech_Fair/palestrantes.html">Equipe de Palestrantes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="cronograma.html">Cronograma</a>
+                        <a class="nav-link" href="/Tech_Fair/cronograma.html">Cronograma</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/Tech_Fair/traga_sua_empresa.html">Traga sua Empresa</a>
+                        <a class="nav-link active" href="/Tech_Fair/traga_sua_empresa.html">Traga sua Empresa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="inscricao.html">Inscrição</a>
+                        <a class="nav-link" href="/Tech_Fair/inscricao.html">Inscrição</a>
                     </li>
                 </ul>
             </div>
@@ -67,8 +67,8 @@
             <input type="text" class="form-control" id="sobrenome" required>
         </div>
         <div class="mb-3">
-            <label for="cpf" class="form-label">CPF</label>
-            <input type="text" class="form-control" id="cpf" maxlength="11" required>
+            <label for="cpf" class="form-label">CNPJ</label>
+            <input type="text" class="form-control" id="CNPJ" maxlength="14" required>
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Email</label>
@@ -77,15 +77,14 @@
         <div class="col-md-5 container my-5">
             <div class="card mb-4 rounded-3 shadow-sm border-primary">
                 <div class="card-header py-3 text-bg-primary border-primary">
-                    <h4 class="my-0 fw-normal">VIP</h4>
+                    <h4 class="my-0 fw-normal">20m²</h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">R$250,00</h1>
+                    <h1 class="card-title pricing-card-title">R$20.500,00</h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li>Acesso a feira durante os 3 dias</li>
-                        <li>Desconto no estacionamento</li>
-                        <li>Sem area exclusiva</li>
-                        <li>Direito a brinde no final do evento</li>
+                        <li>Area de descanso para 2 pessoas</li>
+                        <li>Posição com visibilidade media</li>
+                        <li>Sem banheiro privativo</li>
                     </ul>
                 </div>
             </div>
@@ -97,8 +96,9 @@
                 <option value="boleto">Boleto</option>
             </select>
         </div>
-        <button type="submit" class="my-4 btn btn-primary"><a class="nav-link" href="/Tech_Fair/dados_pf/pedido_finalizado_pf.html">Finalizar
-                Compra</a></button>
+        <button type="submit" class="my-4 btn btn-primary"><a class="nav-link"
+            href="/Tech_Fair/dados_stand/pedido_finalizado_pj.html">Finalizar
+            Compra</a></button>
     </form>
     <footer class="text-center">
         <p>&copy; 2024 FeiraTech. Todos os direitos reservados.</p>
